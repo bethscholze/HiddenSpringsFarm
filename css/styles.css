@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+    
+}
+#mainNavigation ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #e9e6f1;
+}
+#mainNavigation{
+    background-color: #e9e6f1;
+}
+body {
+    background-color: #fbf9f8;
+}
+ul li{
+    list-style-type: none;
+    padding: 1em;
+}
+img {
+    max-width: 100%;
+}
+
+td, th {
+    padding: 1em;
+    text-align: center;
+}
+.card-img-top {
+    max-width: 100%;
+}
+.card {
+    max-width:30%;
+    max-height: 55em;
+    min-width: 300px;
+}
+#cardImg {
+    max-height:15em;
+    display:block;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top:1em;
+}
+h1{
+    font-size:3em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#mainNavigationAdmin ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #e9e6f1;
+}
+#mainNavigationAdmin{
+    background-color: #e9e6f1;
+}
+
+#userComments {
+    background-color: #e3f2fd;
+}
+
+img {
+    max-width: 100%;
+    
+}
+.mainImg {
+    border-radius: 3em;
+}
+
+.aside{
+    background-color: #e3f2fd;
+    padding: 9em 2em;
+    margin-top: -8.1em;
+    margin-bottom: -3em;
+    
+}
+#howTo {
+    padding: 2em;
+}
+
+/*.forms{*/
+/*    text-align: center;*/
+/*}*/
+#commentTable{
+    border: none;
+    box-shadow:  0 2px 4px 0; 
+    
+}
+#commentTable tr td{
+    padding: 1em 2em;
+}
+#shippingForm {
+   box-shadow:  0 2px 4px 0;
+   padding: 1em;
+   background-color: lightgray;
+}
+
+table {
+    border: solid black 1px;
+    margin-bottom: 2em;
+}
+
+.buttonLink {
+    text-align: center;
+    border-radius: 2em;
+    padding: 1.5em;
+    background-color:#e9e6f1;
+    text-decoration: none;
+    max-width:250px;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3em;
+}
+.buttonLink:hover {
+    background-color:#6c6089;
+    color: white; 
+}
+.buttonLink a{
+  color: #2d1f36; 
+  text-decoration: none;
+}
+.buttonLink a:hover{
+  color: white; 
+  text-decoration: none;
+}
+.invoiceLink {
+   padding: 1em; 
+   border-radius: 1em;
+   color:black;
+   background-color:#c4bed3;
+   text-decoration: none;
+   margin-top:2em;
+}
+.invoiceLink a{
+    color: white;
+}
+
+
+.invoice {
+    border: none;
+    min-height: 320px;
+    margin-bottom: 2em;
+}
+#shipping tr td {
+    text-align:left;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}
+
+/***********************************
+    Sticky Footer
+    http://css-tricks.com/snippets/css/a-guide-to-flexbox
+**********************************/
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto; /* flex-grow, flex-shrink, flex-bais */
+}
+
+footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+

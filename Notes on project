@@ -1,0 +1,51 @@
+add a cart for checkout that adds all the items to it
+//is this a session thing?
+--stretch goal is to get the paypal api to work
+
+this is an e-commerce/blog site
+
+login--
+favorite how to guides 
+cart with items in it-- you can save for later
+need to be able to add stuff to the cart
+
+
+
+ADD TO CART FUNCTION
+
+when i hit add to cart I need to send the id to a page or modul
+--then they select size and quantity and that stores in a cart page(which would have to hava a button that appears on the top of the page that says go to cart.
+--the cart should add the order to their user profile or a table of invoices(this is better with a link to their user info)
+add to current invoice ie invoice with id# that would be associated with the customer #
+
+the page would have a check out option for when they are done or continue shopping option
+
+would be associated with customer # or with session id
+
+if customer (get shipping info from that)
+otherwise ask for shipping info and billing would be through paypal api;
+
+check out option
+--take them to new page Checkout page
+--this sets everything to be ready to insert into invoice table
+--want to have remove option on the page, or maybe a chagne quantity option
+--have them add shipping info here
+--have them click checkout create the invoice
+--they go to a new page where they signin to paypal
+--then click approve at bottom, this is confirmation step, -- cancel gives them a popup modal that says confirm, or cancel
+--popup modal that tells them success of order
+
+-------invoice table
+if isset  userid pull info else, prompt for all info
+--user id(can be null), shipping address, products id, quantity, price, order date, unique invoice number, what they paid with
+--what if not logged in, maybe user name instead of id.
+
+-----user table
+
+--username
+--password
+--id
+--name
+--address
+
+
